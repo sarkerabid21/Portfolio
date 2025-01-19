@@ -641,3 +641,27 @@
      }
  }
  
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .services-list , .container2 , .abid {
+        flex-direction: column;
+          
+    }
+    .container2{
+        padding-left: 70px;
+        margin: 0%;
+    }
+    .abid{
+        margin-top: 200px;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .sub-title{
+        font-size: 30px;
+    }
+
+}
